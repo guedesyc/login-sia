@@ -4,13 +4,15 @@
     margin: 0px;
 }
 
-@media (max-width:600px){
+@media (max-width:375px){
     body{
-        height: 100vh;
+        background-size: cover;
+        
         background-image: url(../image/SIA_MOCK_UP_CELULAR.png);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: center center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     h1, p{
        color: rgb(127, 150, 255);
@@ -23,12 +25,10 @@
     }
 
     section{
-        margin: auto;
         position: absolute;
-        top: 40%;
-        left: 25%;
-        display: flex;
-        flex-direction: column;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
 
        
     }
