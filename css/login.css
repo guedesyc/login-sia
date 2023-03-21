@@ -7,7 +7,7 @@
 @media (max-width:375px){
     body{
         background-size: cover;
-        
+        background-repeat: no-repeat;
         background-image: url(../image/SIA_MOCK_UP_CELULAR.png);
         position: absolute;
         top: 50%;
